@@ -107,17 +107,34 @@ function animateMainContent() {
   }
 }
 
-// Smooth scrolling for navigation links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-    e.preventDefault();
-    const target = document.querySelector(this.getAttribute('href'));
-    if (target) {
-      target.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-      });
-    }
+
+// FIXED: Smooth scrolling for navigation links
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      const href = this.getAttribute('href');
+      
+      // Skip if href is just "#" or empty
+      if (!href || href === '#' || href.length <= 1) {
+        e.preventDefault();
+        return;
+      }
+      
+      try {
+        const target = document.querySelector(href);
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      } catch (error) {
+        // Handle invalid selectors gracefully
+        console.warn('Invalid selector:', href);
+        e.preventDefault();
+      }
+    });
   });
 });
 
