@@ -1,4 +1,3 @@
-
 # SkillSwap
 
 An Online course where you can learn skills by tasks and videos.
@@ -18,6 +17,8 @@ You can create an account, purchase the subscription (test), add coupons, save c
 - Admin Login
 - Admin dashboard with pi charts and graphs
 - Stripe integration
+
+
 ![SkillSwap Logo](imgs/homelogo.png)
 
 ## Authors
