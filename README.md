@@ -1,3 +1,4 @@
+
 # SkillSwap
 
 An Online course where you can learn skills by tasks and videos.
@@ -19,9 +20,20 @@ You can create an account, purchase the subscription (test), add coupons, save c
 - Stripe integration
 
 
+## API Reference
+
+> **Test API key:** `pk_test_51PmTaV2NSoPn2t3pdc56LSypEyGXpwQvvKsWs39j8ngKcQsvOViLSMbEgtSp9Uuh241Kt0wdWJuqqecqizDQavYA00CtUdtxWd`
+
+
 ![SkillSwap Logo](imgs/homelogo.png)
 
 ## Authors
 - [@AulonAjvazi](https://www.github.com/AulonAjvazi)
 - [@en0gsh1](https://www.github.com/en0gsh1)
 - @Lis
+
+
+
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aulon-ajvazi/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/AulonContact)
