@@ -57,7 +57,7 @@ const translations = {
         testimonial3: "As a beginner in basketball, this course gave me the confidence and skills to join my local team. Highly recommended!",
         
         // Video Courses
-        videoCoursesTitle: "3 Video Courses from Our Blogs",
+        videoCoursesTitle: "4 Video Courses from Our Blogs",
         computingFundamentals: "Computing Fundamentals",
         computingDesc: "Learn how processors and graphics cards work",
         michelinCooking: "Michelin Star Cooking",
@@ -199,7 +199,7 @@ const translations = {
         popular: "POPULLOR",
         
         // Free plan features
-        freePlanFeature1: "3 seanca ditore të mësimit të aftësive",
+        freePlanFeature1: "4 seanca ditore të mësimit të aftësive",
         freePlanFeature2: "Vonesë në Mësimin e Aftësive",
         freePlanFeature3: "Qasje e kufizuar në kurse",
         
@@ -289,9 +289,9 @@ const translations = {
         "encryption": "Enkriptim 256-bit",
 
         // Coupon section
-        "addCoupon": "Shto Kupon",
-        "enterCoupon": "Vendos kodin e kuponit",
-        "applyCoupon": "Apliko",
+        addCoupon: "Shto Kupon",
+        enterCoupon: "Vendos kodin e kuponit",
+        applyCoupon: "Apliko",
 
         messageSent: "Mesazhi u Dërgua me Sukses!",
         messageSuccess: "Faleminderit që na kontaktuat. Do t'ju përgjigjemi së shpejti!",
@@ -315,4 +315,5 @@ const translations = {
         termsOfService: "Kushtet e Shërbimit",
         cookiePolicy: "Politika e Cookies",
     }
+
     }
