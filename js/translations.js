@@ -215,7 +215,7 @@ const translations = {
         testimonial3: "Si fillestar në basketboll, ky kurs më dha besimin dhe aftësitë për t'u bashkuar me ekipin tim lokal. Shumë i rekomanduar!",
         
         // Video Courses
-        videoCoursesTitle: "3 Kurse Video nga Blogjet Tona",
+        videoCoursesTitle: "4 Kurse Video nga Blogjet Tona",
         computingFundamentals: "Bazat e Informatikës",
         computingDesc: "Mësoni si funksionojnë procesorët dhe kartat grafike",
         michelinCooking: "Gatimi me Yll Michelin",
@@ -317,3 +317,4 @@ const translations = {
     }
 
     }
+
